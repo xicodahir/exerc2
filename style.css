@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(-50deg, rgb(7, 7, 255), rgb(0, 0, 255), rgb(1, 1, 122) );
+    min-height: 100vh;
+}
+
+header{
+    width: 70%;
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.topo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 50px;
+	font-family: Calibri;	
+}
+
+main{
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.cadastro{	
+	background-color: rgb(75, 75, 212);
+	width: 30%;
+	border-radius: 5px;
+	padding:20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.cadastro input{
+	width: 400px;
+	height: 50px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	outline: none;
+	padding-left: 5px;
+	margin-bottom: 5px;
+
+}
+
+.botoes{
+	display: flex;
+	justify-content: space-between;
+}
+.botoes input{
+	width: 170px;
+	height: 30px;
+	background-image: linear-gradient(-50deg, rgb(50, 50, 209), rgb(93, 93, 198) );
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	cursor: pointer;		
+}
